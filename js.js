@@ -51,16 +51,10 @@ let random = function (min, max) {
     }
 return rand;
 };
-console.log(random(1,10));
-console.log(random(1,10));
-console.log(random(1,10));
-console.log(random(1,10));
-console.log(random(1,10));
-console.log(random(1,10));
-console.log(random(1,10));
-console.log(random(1,10));
-console.log(random(1,10));
-console.log(random(1,10));
+for(let i = 0; i < 10; i++)  {
+    console.log(random(1,10));
+}
+
 console.log(useNum);
 
 // для задачи поменять 10 на 100
